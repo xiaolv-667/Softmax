@@ -1,0 +1,2 @@
+Op Name,Op Type,Task Duration(us),Block Dim,Mix Block Dim,Device Id,Pid,Current Freq,Rated Freq,
+softmax_v6_0,vector,14.720000,40,NA,0,83140,1800,1800,
