@@ -37,8 +37,11 @@ extern void softmax_v7_do(uint32_t, void *, uint8_t *, uint8_t *);
 #elif SOFTMAX_VER == 8
 extern void softmax_v8_do(uint32_t, void *, uint8_t *, uint8_t *);
 #define SOFTMAX_DO softmax_v8_do
+#elif SOFTMAX_VER == 9
+extern void softmax_v9_do(uint32_t, void *, uint8_t *, uint8_t *);
+#define SOFTMAX_DO softmax_v9_do
 #else
-#error "SOFTMAX_VER must be in 0..8"
+#error "SOFTMAX_VER must be in 0..9"
 #endif
 
 namespace {

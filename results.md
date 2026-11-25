@@ -25,3 +25,4 @@
 | 2026-11-25 17:54 | softmax@softmax-v5-dirty | Ascend910B3/Release | 40 | 100 | 0.014721 | 284.92 | 6.414e-06 | 0.99999982 | PASS |
 | 2026-11-25 18:25 | softmax@v6-2-gb207ec1-dirty | Ascend910B3/Release | 40 | 100 | 0.010570 | 396.82 | 6.414e-06 | 0.99999982 | PASS |
 | 2026-11-25 18:27 | softmax@v6-2-gb207ec1-dirty | Ascend910B3/Release | 40 | 100 | 0.010431 | 402.10 | 1.030e-05 | 0.99999991 | PASS |
+| 2026-11-25 18:30 | softmax@v9-dirty | Ascend910B3/Release | 40 | 100 | 0.010869 | 385.89 | 1.030e-05 | 0.99999991 | PASS |
