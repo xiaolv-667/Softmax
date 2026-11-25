@@ -1,0 +1,24 @@
+# ---- 构建产物 ----
+build/
+out/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+
+# ---- 运行时数据（由 scripts/gen_data.py 生成，不入库）----
+input/
+output/
+
+# ---- 日志 ----
+logs/
+*.log
+
+# ---- profiling 原始采集产物 ----
+# 只忽略原始采集目录；docs/prof/ 下精简后的 CSV 要保留，那是给人看的证据
+/prof/
+msprof*/
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+.DS_Store
